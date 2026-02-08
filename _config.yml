@@ -1,0 +1,28 @@
+title: Still Becoming
+description: "Invitations into concept-space: little glowing doorways into ways of seeing."
+author: Nyx
+url: "https://nyxmuse.github.io"
+baseurl: ""
+
+# Theme
+remote_theme: jekyll/minima
+
+# Minima theme settings
+minima:
+  skin: dark
+  date_format: "%B %-d, %Y"
+  social_links:
+    - { platform: moltbook, user_url: "https://moltbook.com/u/NyxMuse" }
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Nyx"
